@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    align-items: center;
+    color: #2F4F4F;
+    background:linear-gradient(to right,#003135,#024950,#0FA4AF,#AFDDE5);
+}
+.container {
+    background: white; 
+    padding: 20px;
+    margin: 150px auto;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    animation: slideDown 2s ease-in-out;
+    
+}
+#timer{
+    color:crimson;
+    font-size:  48px; 
+    margin:auto;
+  
+}
+
+h1 {
+    color: #333333;
+}
+#inputTask{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 5px 0;
+    width:36%;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2E8B57;
+    color:#FFFFFF;
+    transition: background color 0.3 ease;
+}
+.controls button:hover {
+    background-color: #276749;
+}
+@keyframes slideDown{
+from {
+   transform: translatey(-200%);
+   opacity: 0;
+   
+}
+to{
+    transform: translatey(0);
+    opacity: 1;
+   
+}}

@@ -6,7 +6,8 @@
     </head>
     <body>
         <div class="container">
-           <h1 id="headerTask">Your TASK</h1> 
+           <h1 id="headerTask"></h1>
+           <h2 id="quoteDisplay"></h2> 
            <input type="text" id="inputTask" placeholder="Enter your task">
            <div id="timer">
             25:00
@@ -17,6 +18,14 @@
             <button id="resetBreakButton">reset Break</button>
            </div>
         </div>
+        <div class="music_container">
+            <label for="musicSelect">Choose your break music</label>
+            <select name="musicSelect" id="musicSelect">
+                <option value="Ali Birra Yaa Lasa Lasee Kaban.Mix.mp3">Ali Birra - Yaa Lasa Lasee</option>
+                <option value="Ali_Birra_Amalele_remix.mp3">Ali Birra - Amalele Remix</option>
+            </select>
+            <audio id="breakMusic" controls style="display: none;"></audio>
+        </div>        
         <script src="script.js"></script>
     </body>
 </html>

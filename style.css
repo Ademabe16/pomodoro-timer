@@ -5,7 +5,7 @@ body {
     
     align-items: center;
     color: #2F4F4F;
-    background:linear-gradient(to right,#003135,#024950,#0FA4AF,#AFDDE5);
+    background:linear-gradient(to right,#003135,#024950,#0FA4AF,#003135);
 }
 .container {
     background: white; 
@@ -14,7 +14,7 @@ body {
     border-radius: 15px;
     width: 300px;
     text-align: center;
-    animation: slideDown 2s ease-in-out;
+    animation: slideDown 4s ease-in-out;
     
 }
 #timer{
@@ -30,7 +30,7 @@ h1 {
 #inputTask{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 5px 0;
+    margin: 5px auto;
     width:36%;
     border-radius: 5px;
     border-color: black;
@@ -62,3 +62,36 @@ to{
     opacity: 1;
    
 }}
+
+#quoteDisplay{
+    font-style: italic;
+    margin: 10px;
+    color: black;
+    text-align: center;
+    animation: fadein 3s ease-in-out;
+}
+@keyframes fadein{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.music_container{
+    margin-top: ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070707;
+}
+#musicSelect{
+    margin: 10;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#audio{
+    margin-top: 10px;
+}
